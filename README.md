@@ -7,7 +7,7 @@
 ## Tech Stack
 
 - [x] Node.js
-- [ ] Colyseus.io
+- [x] Colyseus.io
 
 ## 기본 공통 기능
 

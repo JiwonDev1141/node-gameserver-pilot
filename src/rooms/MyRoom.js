@@ -14,6 +14,13 @@ export class MyRoom extends Room {
       //
     });
 
+    this.onMessage("chat", (client, message) => {
+      this.broadcast("chat", {
+        
+        message: `${client.sessionId}: ${message}`
+      })
+    })
+
   }
 
   onJoin (client, options) {
